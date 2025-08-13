@@ -1,0 +1,61 @@
+body{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #B1AB86;
+}
+
+h1{
+    color: #0A400C;
+    font-size: 4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.div-principal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 18px;
+}
+
+.container{
+    height: 320px;
+    text-align: center;
+    border: #0A400C 2px solid;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+}
+
+.senhaGerada{
+    border: #FEFAE0 2px solid ;
+    border-radius: 12px;
+    background-color: brown;
+    color: #FEFAE0;
+    font-size: 42px;
+    padding: 2rem 0rem;
+}
+
+.botoes{
+    display: flex;
+    justify-content: space-around;
+    gap: 22px;
+}
+
+button{
+    background-color:  #0A400C;
+    color: #FEFAE0;
+    border-radius: 12px;
+    font-size: 34px;
+    padding: 1.4rem;
+}
+
+button:hover{
+    background-color:  #0a400ccb;
+}
+.senhaCopiada{
+    color: green;
+    font-size: 32px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
